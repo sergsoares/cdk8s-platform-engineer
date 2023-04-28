@@ -2,13 +2,31 @@
 
 Código utilizado na apresentação "CDK8S, uma forma diferente de escrever seus Charts" do Platform Engineer 2023.
 
+## Estrutura do repositório
+
+```
+├── CDK8S-Platform-Engineer.pdf           # Slides da apresentação
+├── Makefile                                          
+├── README.md
+├── examples                              # Apps de CDK8S usados de exemplo 
+│   ├── 01-simple-app
+│   ├── 02-kplus-app
+│   ├── 03-app
+│   ├── 04-custom-kind
+│   └── app-test
+├── image.png
+├── assets                               # Assets da apresentação 
+├── snippets                             # Snippets usados de exemplo
+└── tf-cluster                           # Cluster de Kind criado com terraform
+```
+
 ## Slides da apresentação
 
-[Slides da apresentação](CDK8S-Platform-Engineer.pdf)
+[Slides da apresentação](assets/CDK8S-Platform-Engineer.pdf)
 
 ## Link da transmissão
 
-[![IMAGE ALT TEXT](./image.png)](https://youtu.be/Rj0nWoARBZI?t=9426 "CDK8S, uma forma diferente de escrever seus Charts")
+[![IMAGE ALT TEXT](./assets/image.png)](https://youtu.be/Rj0nWoARBZI?t=9426 "CDK8S, uma forma diferente de escrever seus Charts")
 
 ## Referências
 
