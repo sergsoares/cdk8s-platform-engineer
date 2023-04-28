@@ -1,6 +1,12 @@
 ## CDK8S Platform Engineer
 
-Código utilizado na apresentação "CDK8S, uma forma diferente de escrever seus Charts" do Platform Engineer 2023
+Código utilizado na apresentação "CDK8S, uma forma diferente de escrever seus Charts" do Platform Engineer 2023.
+
+## Slides da apresentação
+
+[Slides da apresentação](./CDK8S-Platform Engineer.pdf)
+
+## Link da transmissão
 
 [![IMAGE ALT TEXT](./image.png)](https://youtu.be/Rj0nWoARBZI?t=9426 "CDK8S, uma forma diferente de escrever seus Charts")
 
