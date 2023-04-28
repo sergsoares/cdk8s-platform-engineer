@@ -132,3 +132,14 @@ resource "kubectl_manifest" "simple-app" {
   count     = length(data.kubectl_path_documents.simple-app.documents)
   yaml_body = element(data.kubectl_path_documents.simple-app.documents, count.index)
 }
+
+resource "helm_release" "cnpg" {
+  name             = "cnpg"
+  namespace        = "cnpg-system"
+  repository       = "https://cloudnative-pg.github.io/charts"
+  chart            = "cloudnative-pg"
+  version          = "0.17.1"
+  create_namespace = true
+  wait             = true
+  timeout          = 360
+}
